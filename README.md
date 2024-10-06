@@ -14,10 +14,8 @@ Site voltado para o aprendizado e desenvolvimento de crianças, com recursos par
 - **Jeff**: Mentor Back-end
 
 ### Aspiras Front-end
-- **Felipe Samuel**
-- **Julia**
-- **Davi**
-- **Yuri**
+- **Julia Mariana**
+- **Yuri Levi**
 
 ### Aspiras Back-end
 - **Aldo**
