@@ -3,7 +3,7 @@ const membros = [
         nome: 'Annelise Figueiredo',
         cargo: 'Pedagoga especializada <br> em Ensino Bilingue',
         registro: "",
-        imagem: 'img/img.png'
+        imagem: 'img/img_annelise.png'
     },
     {
         nome: 'Isaac Lima',
