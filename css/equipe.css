@@ -1,0 +1,90 @@
+css
+/* external css: flickity.css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.equipe-container{
+    align-items: center;
+    width: 100%;
+    max-width: 1128px;
+    justify-content:center ;
+    padding: 20px;
+    pointer-events: auto;
+}
+
+
+.membros-container{
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    margin-left: 20px;
+    counter-increment: gallery-cell;
+    background-color:  blueviolet;
+
+}
+
+.membro-card {
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+}
+
+.membro-card-image{
+    position: center;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 3px;
+    margin: 10px;
+    
+}
+
+.membro-card-image .membro-img{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 60%;
+    border-radius: 50%;
+
+}
+.membro-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    font-family: DM Sans;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.nome-membro{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.cargo-membro{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+@media (max-width: 600px) {
+    .membro-card-image {
+        height: 150px; /* Ajuste de altura */
+        width: 150px; /* Ajuste de largura */
+    }
+    .nome-membro {
+        font-size: 20px; /* Tamanho da fonte para telas pequenas */
+    }
+    .cargo-membro {
+        font-size: 14px; /* Tamanho da fonte para telas pequenas */
+    }
+}
