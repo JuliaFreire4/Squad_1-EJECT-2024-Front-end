@@ -58,6 +58,5 @@ $('.equipe-container').flickity({
     cellAlign: 'left',
     contain: true,
     wrapAround: true,
-    groupCells: 1,
-    lazyLoad: false,
+    pageDots: false,
 });

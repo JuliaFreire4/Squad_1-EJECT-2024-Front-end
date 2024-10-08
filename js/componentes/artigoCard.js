@@ -35,3 +35,12 @@ artigos.forEach(artigo=> {
     `;
     artigo_container.appendChild(artigoContent)
 })
+
+   // Inicializar o Flickity para os artigos 
+   $('.artigo-container').flickity({
+    cellAlign: 'left',
+    contain: true,
+    wrapAround: true,
+    prevNextButtons: false, 
+    pageDots: false,
+});
