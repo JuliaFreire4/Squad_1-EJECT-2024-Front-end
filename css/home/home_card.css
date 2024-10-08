@@ -13,24 +13,6 @@
 
 }
 
-.texto-container{
-    font-family: DM Sans;
-    font-size: 36px;
-    font-weight: bold;
-    line-height: 52px;
-    text-align: left;
-    color:#0A0430;
-}
-
-.text-bold-purple{
-    font-family: DM Serif Display;
-    font-size: 36px;
-    font-style: italic;
-    font-weight: bold;
-    line-height: 52px;
-    text-align: left;
-    color:#6F24E9 ;
-}
 
 .card-container{
     width: 100%;
