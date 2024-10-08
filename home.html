@@ -4,34 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!--CSS-->
+
+    <!-- CSS -->
     <link rel="stylesheet" href="css/home/equipe.css">
     <link rel="stylesheet" href="css/home/forum.css">
-
-    <!-- Importar o css do Flickity -->
+    
+    <!-- Importar o CSS do Flickity -->
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    
+    <!-- Importar o jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
+    
 </head>
 
 <body>
 
+    <!-- Container da Equipe com Flickity -->
     <div  class="equipe-container" data-flickity='{ "groupCells": true }'>
         <div id="membros-container" class="membros-container">
         </div>
     </div>
 
     
-    
+    <!-- Forum -->
     <div class="forum-container">
         <div class="texto-container" id="texto-forum-container">
             <p>Leia artigos e interaja no nosso <strong class="text-bold-purple">fórum</strong></p>
         </div>
+            <!-- Container do Artigo com Flickity -->
             <div class="artigo-container" id="artigo_container" data-flickity='{ "groupCells": true }'>
-            </div>     
+        </div>     
              
      <!-- Importar o JS do Flickity -->
      <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+     
      <!--  Importar o JS externo -->
      <script src="js/componentes/MembroCard.js"></script>
      <script src="js/componentes/artigoCard.js"></script>
