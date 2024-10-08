@@ -21,6 +21,7 @@ const artigos = [
 const artigo_container = document.getElementById('artigo_container')
 
 
+
 artigos.forEach(artigo=> {
     const artigoContent = document.createElement('div');
     artigoContent.classList.add('artigo-content');
