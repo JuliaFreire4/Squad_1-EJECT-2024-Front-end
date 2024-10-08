@@ -1,3 +1,4 @@
+// Componete externo --ComponentCard.js --->
 const artigos = [
     {
         descricao: "Lorem ipsum dolor sit amet, consectetur",
@@ -20,27 +21,7 @@ const artigos = [
 
 const artigo_container = document.getElementById('artigo_container')
 
-
-
-artigos.forEach(artigo=> {
-    const artigoContent = document.createElement('div');
-    artigoContent.classList.add('artigo-content');
-
-    artigoContent.innerHTML= `
-            <div class="card" id="artigo-card">
-                <span class="artigo-overlay">
-                    <div class="artigo-card-image">
-                        <img src=${artigo.imagem} alt="imagem do artigo" >
-                    </div>
-                </span>
-                <div class="descricao-content" id="descricao-artigo">
-                    <p><a href=${artigo.link}>${artigo.descricao}</a></p>
-                </div>
-            </div>
-        </div>
-    `;
-    artigo_container.appendChild(artigoContent)
-})
+adicionarCardsAoContainer(artigo_container, artigos);
 
    // Inicializar o Flickity para os artigos 
    $('.artigo-container').flickity({
