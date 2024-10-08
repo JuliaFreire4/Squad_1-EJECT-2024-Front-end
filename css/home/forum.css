@@ -7,7 +7,7 @@
 
 .forum-container{
     margin: 50px;
-    max-width: 1160px;
+    max-width: 100%;
     max-height: auto;
 }
 
@@ -32,15 +32,22 @@
 }
 .artigo-container{
     width: 100%;
+    width: 100%;
     justify-content: center;
-    align-items: flex-start;
-    margin: 50px ;
+    align-items: center;
+    margin:50px auto ;
+    overflow: hidden;
+
+
 }
 
 .card{
+    width: 360px;
+    height: auto;
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
+    margin: 10px;
 }
 
 .artigo-card-image{
@@ -60,12 +67,17 @@
 
 .descricao-content{
     margin-top: 10px;
-    font-family: DM Sans,sans-serif;
+    font-family: DM Sans, sans-serif;
     font-size: 24px;
     font-weight: bold;
     line-height: 32px;
     text-align: left;
-
+    align-items: center;
+    justify-content: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: hidden; 
 
 }
 

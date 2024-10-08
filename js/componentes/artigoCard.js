@@ -38,9 +38,12 @@ artigos.forEach(artigo=> {
 
    // Inicializar o Flickity para os artigos 
    $('.artigo-container').flickity({
-    cellAlign: 'left',
+    cellAlign: 'right',
     contain: true,
     wrapAround: true,
+    lazyLoad: 1,
+    hash: true,
     prevNextButtons: false, 
     pageDots: false,
 });
+
