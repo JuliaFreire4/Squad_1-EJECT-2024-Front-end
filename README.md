@@ -15,7 +15,7 @@ Site voltado para o aprendizado e desenvolvimento de crianças, com recursos par
 
 ### Aspiras Front-end
 - **Julia Mariana**
-- **Yuri Levi**
+- **Samuel**
 
 ### Aspiras Back-end
 - **Aldo**
