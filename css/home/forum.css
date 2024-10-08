@@ -85,6 +85,14 @@
 
 }
 
+a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #108cc5; 
+}
 
 @media (max-height: 915px){
     .artigo-card-image{
