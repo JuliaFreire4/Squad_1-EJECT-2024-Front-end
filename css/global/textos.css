@@ -48,3 +48,12 @@
     text-align: left;
     color:#FFC62F ;
 }
+
+.titulo-introducao-pagina{
+    font-family: DM Sans;
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 77px;
+    text-align: left;
+    color:#0A0430;
+}
