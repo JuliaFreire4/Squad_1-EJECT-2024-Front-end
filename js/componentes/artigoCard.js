@@ -21,7 +21,6 @@ artigos.forEach(artigo=> {
     artigoContent.classList.add('artigo-content');
 
     artigoContent.innerHTML= `
-      <div class="artigo-container" id="artigo_container">
             <div class="card" id="artigo-card">
                 <span class="artigo-overlay">
                     <div class="artigo-card-image">
@@ -33,7 +32,6 @@ artigos.forEach(artigo=> {
                 </div>
             </div>
         </div>
-    </div>
     `;
     artigo_container.appendChild(artigoContent)
 })
