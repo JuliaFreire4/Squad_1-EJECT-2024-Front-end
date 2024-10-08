@@ -1,18 +1,18 @@
 const artigos = [
     {
         descricao: "Lorem ipsum dolor sit amet, consectetur",
-        imagem:'img/home/img_artigo.jpeg',
+        imagem:'img/home/forum/img_artigo.jpeg',
         link: '#'
     },
      {
         descricao: "Lorem ipsum dolor sit amet, consectetur",
-        imagem:'img/home/img_artigo2.jpeg',
+        imagem:'img/home/forum/img_artigo2.jpeg',
         link: '#'
 
     },
      {
         descricao: "Lorem ipsum dolor sit amet, consectetur",
-        imagem:'img/home/img_artigo3.jpeg',
+        imagem:'img/home/forum/img_artigo3.jpeg',
         link: '#'
 
      }

@@ -3,25 +3,25 @@ const membros = [
         nome: 'Annelise Figueiredo',
         cargo: 'Pedagoga especializada <br> em Ensino Bilingue',
         registro: "",
-        imagem: 'img/home/img_annelise.png'
+        imagem: 'img/home/equipe/img_annelise.png'
     },
     {
         nome: 'Isaac Lima',
         cargo: 'Psicólogo Infantil',
         registro: "CRP 0000000",
-        imagem: 'img/home/img_isaac.png'
+        imagem: 'img/home/equipe/img_isaac.png'
     },
     {
         nome: 'Malu Queiroz',
         cargo: 'Nutricionista Infantil',
         registro: "CRN 00000/P",
-        imagem: 'img/home/img_malu.png'
+        imagem: 'img/home/equipe/img_malu.png'
     },
     {
         nome: 'Leonardo Matos',
         cargo: 'Pediatra',
         registro: "CRM/RN 000000",
-        imagem: 'img/home/img_leonardo.jpeg'
+        imagem: 'img/home/equipe/img_leonardo.jpeg'
     },
 
 
