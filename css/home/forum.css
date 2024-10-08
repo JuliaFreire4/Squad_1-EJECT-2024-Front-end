@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.forum-container{
+    margin: 50px;
+    max-width: 1160px;
+    max-height: auto;
+}
+
+.texto-container{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 52px;
+    text-align: left;
+    color:#0A0430;
+}
+
+.text-bold-purple{
+    font-family: DM Serif Display;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 52px;
+    text-align: left;
+    color:#6F24E9 ;
+    
+}
+.artigo-container{
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 50px ;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.artigo-card-image{
+    width: 360px;
+    height: 240px;
+    overflow: hidden;
+    border-radius: 50px;
+    
+}
+
+.artigo-card-image img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.descricao-content{
+    margin-top: 10px;
+    font-family: DM Sans,sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: left;
+
+
+}
+
+
+@media (max-height: 915px){
+    .artigo-card-image{
+        height: 400px;
+    }
+}
+@media (max-width: 734px){
+    .artigo-card-image{
+        width: 360px;
+    }
+    .texto-forum-container{
+        font-size: 28px;
+    }
+}
