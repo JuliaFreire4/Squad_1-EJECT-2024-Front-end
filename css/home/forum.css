@@ -6,10 +6,12 @@
 }
 
 .forum-container{
+    width: 1160px;
     margin: center;
-    margin: 50px;
+    margin: 2382px 140px 140px;
     max-width: 100%;
     max-height: auto;
+
 }
 
 .texto-container{
