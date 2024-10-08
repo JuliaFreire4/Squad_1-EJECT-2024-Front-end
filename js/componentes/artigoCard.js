@@ -1,15 +1,20 @@
 const artigos = [
     {
         descricao: "Lorem ipsum dolor sit amet, consectetur",
-        imagem:'img/home/img_artigo.jpeg'
+        imagem:'img/home/img_artigo.jpeg',
+        link: '#'
     },
      {
         descricao: "Lorem ipsum dolor sit amet, consectetur",
-        imagem:'img/home/img_artigo2.jpeg'
+        imagem:'img/home/img_artigo2.jpeg',
+        link: '#'
+
     },
      {
         descricao: "Lorem ipsum dolor sit amet, consectetur",
-        imagem:'img/home/img_artigo3.jpeg'
+        imagem:'img/home/img_artigo3.jpeg',
+        link: '#'
+
      }
 ]
 
@@ -28,7 +33,7 @@ artigos.forEach(artigo=> {
                     </div>
                 </span>
                 <div class="descricao-content" id="descricao-artigo">
-                    <p>${artigo.descricao}</p>
+                    <p><a href=${artigo.link}>${artigo.descricao}</a></p>
                 </div>
             </div>
         </div>
