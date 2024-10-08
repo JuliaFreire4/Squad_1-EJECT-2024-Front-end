@@ -1,4 +1,5 @@
-// Componete externo --ComponentCard.js --->
+import { AddCardsContainer } from "./ComponentCard.js";
+
 const ferramentas = [
     {
         descricao: "Desenhos para colorir",
@@ -22,7 +23,7 @@ const ferramentas = [
 const ferramenta_container=document.getElementById('ferramenta-container"')
 
 
-adicionarCardsAoContainer(ferramenta_container, ferramentas);
+AddCardsContainer(ferramenta_container, ferramentas);
 
 
  // Inicializar o Flickity 

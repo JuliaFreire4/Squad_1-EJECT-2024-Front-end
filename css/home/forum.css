@@ -5,10 +5,9 @@
     font-family: sans-serif;
 }
 
-.forum-container{
+.cards-containe{
     width: 1160px;
-    margin: center;
-    margin: 2382px 140px 140px;
+    margin: auto 140px 140px;
     max-width: 100%;
     max-height: auto;
 
@@ -33,7 +32,7 @@
     color:#6F24E9 ;
     
 }
-.artigo-container{
+.card-container{
     width: 100%;
     width: 100%;
     justify-content: center;
@@ -53,7 +52,7 @@
     margin: 10px;
 }
 
-.artigo-card-image{
+.card-image{
     width: 360px;
     height: 240px;
     overflow: hidden;
@@ -61,7 +60,7 @@
     
 }
 
-.artigo-card-image img{
+.card-image img{
     width: 100%;
     height: 100%;
     object-fit: fill;

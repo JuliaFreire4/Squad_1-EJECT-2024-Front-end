@@ -25,15 +25,14 @@
         </div>
     </div>
 
-
     <!-- Forum -->
-    <div class="forum-container">
+    <div class="cards-container" id="forum-container">
         <div class="texto-container" id="texto-forum-container">
             <p>Leia artigos e interaja no nosso 
                 <p class="text-bold-purple">forum</p>
         </div>
             <!-- Container do Artigo com Flickity -->
-            <div class="artigo-container" id="artigo_container" data-flickity='{ "contain": true, "wrapAround": true }'></div>     
+            <div class="card-container" id="artigo_container" data-flickity='{ "contain": true, "wrapAround": true }'></div>     
     </div>
 
     <!-- Ferramentas  -->
@@ -42,15 +41,18 @@
             <p>Materiais de apoio para  
                 <p class="text-bold-purple">pais e professores</p>
         </div>
-        <div class="ferramenta-container" id="'ferramenta-container"></div>
+        <div class="card-container" id="'ferramenta-container" data-flickity='{ "contain": true, "wrapAround": true }'></div>
     </div>
 
-     <!-- Importar o JS do Flickity -->
+     <!-- Importacao do JS do Flickity -->
      <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
-     <!--  Importar o JS externo -->
+     <!--  Importacao do JS externo -->
+     <script  type="module" src="js/componentes/ComponentCard.js"></script>
      <script src="js/componentes/MembroCard.js"></script>
-     <script src="js/componentes/artigoCard.js"></script>
+     <script type="module" src="js/componentes/artigoCard.js"></script>
+     <script type="module" src="js/componentes/ferramentasCard.js"></script>
+
      
 </body>
 </html>
