@@ -24,11 +24,11 @@ artigos.forEach(artigo=> {
             <div class="card" id="artigo-card">
                 <span class="artigo-overlay">
                     <div class="artigo-card-image">
-                        <img src="img/home/img_artigo.jpeg" alt="imagem do artigo" >
+                        <img src=${artigo.imagem} alt="imagem do artigo" >
                     </div>
                 </span>
                 <div class="descricao-content" id="descricao-artigo">
-                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    <p>${artigo.descricao}</p>
                 </div>
             </div>
         </div>
