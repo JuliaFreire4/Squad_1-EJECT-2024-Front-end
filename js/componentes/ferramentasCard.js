@@ -4,35 +4,37 @@ const ferramentas = [
     {
         descricao: "Desenhos para colorir",
         imagem:'img/home/ferramentas/ferramenta1.png',
-        link: '#'
+        link: '#',
+        id:"ferramenta"
     },
      {
         descricao: "Cartões didáticos",
         imagem:'img/home/ferramentas/ferramenta2.jpeg',
-        link: '#'
-
+        link: '#',
+        id:"ferramenta"
     },
      {
         descricao: "Lorem ipsum dolor sit amet, consectetur",
         imagem:'img/home/ferramentas/ferramenta3.jpeg',
-        link: '#'
-
+        link: '#',
+        id:"ferramenta"
      }
 ]
 
-const ferramenta_container=document.getElementById('ferramenta-container"')
+const ferramenta_container = document.getElementById('ferramenta-container')
 
-
-AddCardsContainer(ferramenta_container, ferramentas);
-
-
+if(ferramenta_container){
+    AddCardsContainer({container: ferramenta_container, lista: ferramentas});
+    
  // Inicializar o Flickity 
- $('ferramenta-container').flickity({
+ $('#ferramenta-container').flickity({
     cellAlign: 'right',
     contain: true,
     wrapAround: true,
-    lazyLoad: 1,
     hash: true,
     prevNextButtons: false, 
     pageDots: false,
 });
+
+}
+
