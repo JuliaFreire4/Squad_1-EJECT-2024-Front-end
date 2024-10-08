@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/home/equipe.css">
+    <link rel="stylesheet" href="css/home/forum.css">
+
+    <!-- Importar o css do Flickity -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div  class="equipe-container" data-flickity='{ "groupCells": true }'>
+        <div id="membros-container" class="membros-container">
+        </div>
+    </div>
+
+    <!-- Importar o JS do Flickity -->
+    <script src="js/componentes/MembroCard.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    
+    <div class="forum-container">
+        <div class="texto-container" id="texto-forum-container">
+            <p>Leia artigos e interaja no nosso <strong class="text-bold-purple">fórum</strong></p>
+        </div>
+        <div class="artigo-container">
+            <div class="card" id="artigo-card">
+                <span class="artigo-overlay">
+                    <div class="artigo-card-image">
+                        <img src="img/home/img_artigo.jpeg" alt="imagem do artigo" >
+                    </div>
+                </span>
+                <div class="descricao-content" id="descricao-artigo">
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
