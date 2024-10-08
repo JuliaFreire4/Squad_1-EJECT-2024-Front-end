@@ -61,8 +61,9 @@
 
 .artigo-card-image img{
     width: 100%;
-    height: auto;
-    object-fit: cover;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
 }
 
 
