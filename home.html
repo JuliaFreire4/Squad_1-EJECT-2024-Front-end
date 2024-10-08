@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/home/equipe.css">
+    <link rel="stylesheet" href="css/home/home_card.css">
+    <link rel="stylesheet" href="css/home/ferrramenta.css">
+    <link rel="stylesheet" href="css/home/forum.css">
+    
+    <!-- Importar o CSS do Flickity -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    
+    <!-- Importar o jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+</head>
+
+<body>
+
+    <!-- Equipe-->
+    <div  class="equipe-container" data-flickity='{ "groupCells": true }'>
+        <div id="membros-container" class="membros-container">
+        </div>
+    </div>
+
+    <!-- Forum -->
+    <div class="cards-container" id="forum-container">
+        <div class="texto-container" id="texto-forum-container">
+            <p>Leia artigos e interaja no nosso 
+                <p class="text-bold-purple">forum</p>
+        </div>
+            <!-- Container do Artigo com Flickity -->
+            <div class="card-container" id="artigo_container" data-flickity='{ "contain": true, "wrapAround": true }'></div>     
+    </div>
+
+    <!-- Ferramentas  -->
+    <div class="cards-container" id="ferramentas-container">
+        <div class="texto-container">
+            <p>Materiais de apoio para  
+                <p class="text-bold-purple">pais e professores</p>
+        </div>
+        <div class="card-container" id="ferramenta-container" data-flickity='{ "contain": true, "wrapAround": true }'></div>
+    </div>
+
+     <!-- Importacao do JS do Flickity -->
+     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+     <!--  Importacao do JS externo -->
+     <script  type="module" src="js/componentes/ComponentCard.js"></script>
+     <script src="js/componentes/MembroCard.js"></script>
+     <script type="module" src="js/componentes/artigoCard.js"></script>
+     <script type="module" src="js/componentes/ferramentasCard.js"></script>
+
+     
+</body>
+</html>
