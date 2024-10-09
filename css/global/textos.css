@@ -49,6 +49,15 @@
     color:#FFC62F ;
 }
 
+.text-bold-white-small{
+    font-family: DM Serif Display;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: left;
+    color:white ;
+}
 .texto-introducao-pagina{
     font-family: DM Sans;
     font-size: 64px;
