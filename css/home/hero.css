@@ -1,11 +1,8 @@
-#texto-pagina-home{
-    margin: 236.19px 395.19px;
-}
 
 .hero-container{
     width: 1322.19px;
     height: auto;
-    margin: 206px 83px;
+    margin:10% auto ;
     display: flex;
     flex-direction: column;
     align-items: center;
