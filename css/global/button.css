@@ -1,8 +1,38 @@
-.botao_informacoes{
+.bnt-purple{
     width: Hug (172px)px;
     height: Hug (52px)px;
     padding: 10px 30px 10px 30px;
     gap: 15px;
-    border-radius: 50px 0px 0px 0px;
+    border-radius: 50px;
+    border-color: #704eea00;
     background-color: #704EEA;
+
 }
+
+.button-purple:hover{
+    background-color: blue;
+}
+.bnt-outline-white{
+    width: Hug (233px)px;
+    height: Hug (55px)px;
+    padding: 10px 30px 10px 30px;
+    gap: 15px;
+    border-radius: 50px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #FFFDF2;
+    background-color: #704eea00;
+
+}
+
+.bnt-outline-purple{
+    width: Hug (233px)px;
+    height: Hug (55px)px;
+    padding: 10px 30px 10px 30px;
+    gap: 15px;
+    border-radius: 50px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #6F24E9;
+    background-color: #704eea00;
+}
+
+
