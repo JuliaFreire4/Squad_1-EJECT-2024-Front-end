@@ -3,49 +3,45 @@
 }
 
 .hero-container{
+    background-color: #2d19c4;
     width: 1322.19px;
-    height: 490.75px;
-    top: 206px;
-    left: 83px;
-    gap: 0px;
-    opacity: 0px;
-
+    height: 522.19px;
+    margin: 206px 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.texto-container{
-    width: auto;
-    height: 231px;
-    top: 236.19px;
-    left: 395.19px;
-    gap: 0px;
-    opacity: 0px;
 
+.container-texto{
+    background-color: #c3bfe0;
+    width: 668px;
+    height: 231px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 .descricao-container{
+    margin: 140px auto;
     width: 802px;
     height: 96px;
-    top: 520.19px;
-    left: 328.19px;
-    gap: 0px;
-    opacity: 0px;
-    color:#0A0430;
+    color: #0A0430;
 
 }
 
 .descricao-texto{
-    font-family: DM Sans;
+    font-family: 'DM Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0.075em;
-    text-align: center;
-    color:#0A0430;
     text-align: left;
     align-items: center;
     justify-content: center;
     overflow-wrap: break-word;
     word-wrap: break-word;
     white-space: normal;
-    overflow: hidden; 
+    overflow: hidden;
+    color: #0A0430;
 }
 
