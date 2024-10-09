@@ -1,0 +1,120 @@
+
+.texto-container{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 52px;
+    text-align: left;
+    color:#0A0430;
+}
+
+.text-bold-purple-small{
+    font-family: DM Serif Display;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 52px;
+    text-align: left;
+    color:#6F24E9 ;
+}
+
+.text-bold-purple-large {
+    font-family: DM Serif Display;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: left;
+    color:#6F24E9 ;
+}
+
+.text-bold-yellow-small{
+    font-family: DM Serif Display;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 52px;
+    text-align: left;
+    color:#F19436 ;
+}
+
+
+.text-bold-yellow-large {
+    font-family: DM Serif Display;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: left;
+    color:#FFC62F ;
+}
+
+.text-bold-white-small{
+    font-family: DM Serif Display;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 52px;
+    text-align: left;
+    color:white ;
+}
+.texto-introducao-pagina{
+    font-family: DM Sans;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 77px;
+    text-align: left;
+    color:#0A0430;
+
+}
+
+.text-span-simbolo{
+    font-family: DM Serif Display;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 77px;
+    text-align: center;
+    color:#0A0430;
+
+}
+
+.descricao-container-texto{
+    width: 100%;
+    max-width: 802px;
+    height: 96px;
+    text-align: center;
+    margin: 10px auto;
+
+}
+
+.descricao-texto{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.075em;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    color: #0A0430;
+}
+
+@media(max-width:734px){
+    .text-bold-purple-large{
+        font-size: 36px;
+        line-height: 52px;
+    }
+    .text-bold-yellow-large{
+        font-size: 36px;
+        line-height: 52px;
+    }
+    .texto-introducao-pagina{
+        font-size: 36px;
+        line-height: 52px;
+
+
+    }
+}
