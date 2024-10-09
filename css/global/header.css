@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 5rem 0rem 2rem;
+    font-family: "Montserrat", sans-serif;
+    font-synthesis-small-caps: all-small-caps;
+}
+
+.logo img {
+    max-width: 20rem;
+}
+.nav-links {
+    display: flex;
+    gap: 1rem; /* Espaçamento entre os links */
+    position: relative; /* Necessário para posicionar a imagem */
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    position: relative; /* Necessário para posicionar a imagem abaixo do item ativo */
+}
+
+.nav-links a.active::after {
+    content: url(/img/assets/header-drop.svg);
+    display: block;
+    position: absolute;
+    bottom: -2rem; /* Ajuste conforme necessário para posicionar a imagem */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Estilo para o item ativo */
+.nav-links a.active {
+    font-weight: 800;
+}
+
+.background {
+    background-color: #6f24e9;
+    padding: 1.5rem;
+    border-radius: 5rem;
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links a.active::after {
+        bottom: -1.5rem; /* Ajuste conforme necessário para telas menores */
+    }
+}
