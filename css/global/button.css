@@ -16,10 +16,7 @@
     justify-content: center;
     
 }
-#bnt-icon{
-    width: 10px;
-    height: 18.37px;
-}
+
 .button-purple:hover{
     background-color: blue;
 }
@@ -32,6 +29,10 @@
     border: 1px 0px 0px 0px;
     border: 1px solid #FFFDF2;
     background-color: #704eea00;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -44,13 +45,22 @@
     border: 1px 0px 0px 0px;
     border: 1px solid #6F24E9;
     background-color: #704eea00;
+    /* Texto */
     font-family: DM Sans;
     font-size: 16px;
     font-weight: 700;
     line-height: 32px;
     letter-spacing: 0.075em;
     text-align: center;
+    /* icon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
 
+#icon-bnt{
+    width: 10px;
+    height: 18.37px;
+}
