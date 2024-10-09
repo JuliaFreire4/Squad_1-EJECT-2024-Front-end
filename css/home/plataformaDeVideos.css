@@ -1,25 +1,3 @@
-/* 
-<!-- Plataforma de videos -->
-<div class="plataforma-container" id="plataforma-videos-container">
-    <div class="texto-container" id="text-videos">
-        <p>Nossa plataforma oferece vídeos 
-            <span>filtrados & selecionados</span>
-        exclusivamente para cuidar da <span>segurança</span> das suas crianças
-        </p>
-        <div class="descricao-container-texto" id="plataforma-videos-descricao">
-            <span class="descricao-texto"> 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at mauris quis magna aliquet condimentum. 
-                Cras et turpis id eros tincidunt faucibus. Nullam aliquam malesuada neque, ac hendrerit lacus tincidunt eu.
-            </span>
-        </div>
-        <div>
-            <button class="bnt-outline-purple" id="bnt-assistir-agora">
-                <span>Assistir agora</span>
-                <img class="icon-bnt" src="img/home/button-icon/icon-bnt-outline-purple.svg">
-            </button>
-        </div>
-    </div> */
-
 .plataforma-container{
     width: 1160px;
     height: 611px;
@@ -27,6 +5,7 @@
     border-radius: 50px;
     background-color: #FFD25B;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 140px;
@@ -36,7 +15,6 @@
     font-family: DM Sans;
     font-size: 36px;
     font-weight: bold;
-    line-height: 52px;
     text-align: left;
     color:#0A0430;
     width: 906px;
@@ -47,5 +25,27 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 20px;
+}
+.descricao-container-plataforma{
+    max-width: 684px;
+    height: 64px auto;
+    text-align: center;
+    margin: 10px auto;
 }
 
+.descricao-texto-plataforma{
+    font-family: DM Sans,medium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.075em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    color: #0A0430;
+    
+}
