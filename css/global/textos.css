@@ -56,12 +56,13 @@
     line-height: 77px;
     text-align: left;
     color:#0A0430;
+
 }
 
 
 @media(max-width:734px){
     .text-bold-purple-large{
-        font-size: 24px;
+        font-size: 36px;
         line-height: 52px;
     }
     .titulo-introducao-pagina{
