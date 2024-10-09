@@ -6,9 +6,20 @@
     border-radius: 50px;
     border-color: #704eea00;
     background-color: #704EEA;
-
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
-
+#bnt-icon{
+    width: 10px;
+    height: 18.37px;
+}
 .button-purple:hover{
     background-color: blue;
 }
@@ -33,6 +44,13 @@
     border: 1px 0px 0px 0px;
     border: 1px solid #6F24E9;
     background-color: #704eea00;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.075em;
+    text-align: center;
+
 }
 
 
