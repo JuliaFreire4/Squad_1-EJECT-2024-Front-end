@@ -23,9 +23,29 @@
 .plataforma-container{
     width: 1160px;
     height: 611px;
-    top: 3146px;
-    left: 140px;
+    margin: 3416px 140px;
     border-radius: 50px;
     background-color: #FFD25B;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 140px;
 }
+
+.texto-container-plataforma{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 52px;
+    text-align: left;
+    color:#0A0430;
+    width: 906px;
+    height: 371px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
