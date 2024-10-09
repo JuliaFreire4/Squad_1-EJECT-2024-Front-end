@@ -1,0 +1,74 @@
+.bnt-purple{
+    width: Hug (172px)px;
+    height: Hug (52px)px;
+    padding: 10px 30px 10px 30px;
+    gap: 15px;
+    border-radius: 50px;
+    border-color: #704eea00;
+    background-color: #704EEA;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    color:#FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.button-purple:hover{
+    background-color: blue;
+}
+.bnt-outline-white{
+    width: Hug (233px)px;
+    height: Hug (55px)px;
+    padding: 10px 30px 10px 30px;
+    gap: 15px;
+    border-radius: 50px;
+    border: 1px solid #FFFDF2;
+    background-color: transparent;
+    /* Texto */
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.075em;
+    text-align: center;
+    color: white;
+    /* icon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bnt-outline-purple{
+    width: Hug (233px)px;
+    height: Hug (55px)px;
+    padding: 10px 30px 10px 30px;
+    gap: 15px;
+    border-radius: 50px;
+    border: 1px solid #6F24E9;
+    background-color: transparent;
+    /* Texto */
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.075em;
+    text-align: center;
+    color: #6F24E9;
+    /* icon */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#icon-bnt{
+    width: 10px;
+    height: 18.37px;
+    margin-left: 8px;
+}

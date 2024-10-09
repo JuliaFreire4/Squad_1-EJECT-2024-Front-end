@@ -1,0 +1,50 @@
+.plataforma-container{
+    width: 1160px;
+    height: 611px;
+    margin: 3416px 140px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 140px;
+}
+
+.texto-container-plataforma{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    color:#0A0430;
+    width: 906px;
+    height: 371px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.descricao-container-plataforma{
+    max-width: 684px;
+    height: 64px auto;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.descricao-texto-plataforma{
+    font-family: DM Sans,medium;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.075em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    color: #0A0430;
+    
+}
