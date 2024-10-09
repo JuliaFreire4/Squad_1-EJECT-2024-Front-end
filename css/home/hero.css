@@ -2,3 +2,21 @@
     margin: 236.19px 395.19px;
 }
 
+.hero-container{
+    width: 1322.19px;
+    height: 490.75px;
+    top: 206px;
+    left: 83px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+.texto-container{
+    width: auto;
+    height: 231px;
+    top: 236.19px;
+    left: 395.19px;
+    gap: 0px;
+    opacity: 0px;
+
+}
