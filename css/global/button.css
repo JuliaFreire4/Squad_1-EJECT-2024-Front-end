@@ -1,0 +1,8 @@
+.botao_informacoes{
+    width: Hug (172px)px;
+    height: Hug (52px)px;
+    padding: 10px 30px 10px 30px;
+    gap: 15px;
+    border-radius: 50px 0px 0px 0px;
+    background-color: #704EEA;
+}
