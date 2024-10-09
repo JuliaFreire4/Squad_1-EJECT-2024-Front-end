@@ -20,3 +20,32 @@
     opacity: 0px;
 
 }
+
+.descricao-container{
+    width: 802px;
+    height: 96px;
+    top: 520.19px;
+    left: 328.19px;
+    gap: 0px;
+    opacity: 0px;
+    color:#0A0430;
+
+}
+
+.descricao-texto{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.075em;
+    text-align: center;
+    color:#0A0430;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    overflow: hidden; 
+}
+
