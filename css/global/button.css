@@ -26,10 +26,17 @@
     padding: 10px 30px 10px 30px;
     gap: 15px;
     border-radius: 50px;
-    border: 1px 0px 0px 0px;
     border: 1px solid #FFFDF2;
-    background-color: #704eea00;
-    text-align: right;
+    background-color: transparent;
+    /* Texto */
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.075em;
+    text-align: center;
+    color: white;
+    /* icon */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,9 +49,8 @@
     padding: 10px 30px 10px 30px;
     gap: 15px;
     border-radius: 50px;
-    border: 1px 0px 0px 0px;
     border: 1px solid #6F24E9;
-    background-color: #704eea00;
+    background-color: transparent;
     /* Texto */
     font-family: DM Sans;
     font-size: 16px;
@@ -52,6 +58,7 @@
     line-height: 32px;
     letter-spacing: 0.075em;
     text-align: center;
+    color: #6F24E9;
     /* icon */
     display: flex;
     align-items: center;
@@ -63,4 +70,5 @@
 #icon-bnt{
     width: 10px;
     height: 18.37px;
+    margin-left: 8px;
 }
