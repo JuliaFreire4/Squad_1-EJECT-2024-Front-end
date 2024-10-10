@@ -1,4 +1,4 @@
-import { AddCardsContainer } from "./ComponentCard.js";
+import { AddCardsContainer } from "../componentes/ComponentCard.js";
 
 const artigos = [
     {
