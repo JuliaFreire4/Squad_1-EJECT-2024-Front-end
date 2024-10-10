@@ -3,13 +3,10 @@
 html,
 body {
   height: 100%;
-}
-
-body {
+  margin: 0;
   font-family: "Open Sans", sans-serif;
   display: flex;
   flex-direction: column;
-  padding-top: 300px;
 }
 
 .container {
@@ -66,7 +63,6 @@ body {
 
 .footer {
   position: relative;
-  margin-top: 300px;
   padding: 3rem 0;
   color: #fff;
   background: #6f24e9;
@@ -74,6 +70,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  flex-grow: 1;
 }
 
 .footer a {

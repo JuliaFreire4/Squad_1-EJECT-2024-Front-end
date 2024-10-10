@@ -1,155 +1,311 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
     <!-- CSS -->
-        <!-- Pagina Home -->
-        <link rel="stylesheet" href="css/home/equipe.css">
-        <link rel="stylesheet" href="css/home/home_card.css">
-        <link rel="stylesheet" href="css/home/ferrramenta.css">
-        <link rel="stylesheet" href="css/home/forum.css">
-        <link rel="stylesheet" href="css/home/hero.css">
-        <link rel="stylesheet" href="css/home/Plataforma.css">
-        <link rel="stylesheet" href="css/home/plataformaVideo.css">
-        <link rel="stylesheet" href="css/home/jogosEducacionais.css">
-        <!-- Global -->
-        <link rel="stylesheet" href="css/global/button.css">
-        <link rel="stylesheet" href="css/global/textos.css">
+    <!-- Pagina Home -->
+    <link rel="stylesheet" href="css/home/equipe.css" />
+    <link rel="stylesheet" href="css/home/home_card.css" />
+    <link rel="stylesheet" href="css/home/ferrramenta.css" />
+    <link rel="stylesheet" href="css/home/forum.css" />
+    <link rel="stylesheet" href="css/home/hero.css" />
+    <link rel="stylesheet" href="css/home/Plataforma.css" />
+    <link rel="stylesheet" href="css/home/plataformaVideo.css" />
+    <link rel="stylesheet" href="css/home/jogosEducacionais.css" />
+
+    <!-- Global -->
+    <link rel="stylesheet" href="css/global/button.css" />
+    <link rel="stylesheet" href="css/global/textos.css" />
+    <link rel="stylesheet" href="css/global/footer.css" />
+    <link rel="stylesheet" href="css/global/header.css" />
 
     <!-- Importar o CSS do Flickity -->
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+
     <!-- Importar o jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    
-</head>
 
-<body>
+    <!-- Importacao do JS do Flickity -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <!--  Importacao do JS externo -->
+    <script type="module" src="js/componentes/ComponentCard.js"></script>
+    <script src="js/home/equipe.js"></script>
+    <script type="module" src="js/home/forum.js"></script>
+    <script type="module" src="js/home/Ferramentas.js"></script>
+    <script type="module" src="js/home/NossasFerramentas.js"></script>
+    <script src="js/home/hero.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="logo">
+          <img src="img/logo.png" alt="Logotipo da sabidinhos" />
+        </div>
+        <div class="background">
+          <nav class="nav-links">
+            <a href="/home.html">home</a>
+            <a href="/videos.html">vídeos</a>
+            <a href="/forum.html">fórum</a>
+            <a href="/client.html">pais & profs</a>
+          </nav>
+        </div>
+      </div>
+    </header>
 
     <!--  Hero -->
     <div class="hero-container">
-        <!-- texto principal -->
-        <div class="container-texto" id="texto-pagina-home">
-            <div class="texto-introducao-pagina">
-                O melhor lugar para crianças 
-                <span class="text-bold-purple-large">aprenderem</span>
-                <span class="text-span-simbolo">&</span>
-                <span class="text-bold-yellow-large">brincarem</span>
-            </div>
+      <!-- texto principal -->
+      <div class="container-texto" id="texto-pagina-home">
+        <div class="texto-introducao-pagina" id="texto-completo-hero">
+          O melhor lugar para crianças
+          <span class="text-bold-purple-large">aprenderem</span>
+          <span class="text-span-simbolo">&</span>
+          <span class="text-bold-yellow-large">brincarem</span>
         </div>
-        <!-- Descricao texto -->
-            <div class="descricao-container-texto" id="hero-descricao">
-                <span class="descricao-texto"> 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at mauris quis magna aliquet condimentum. 
-                    Cras et turpis id eros tincidunt faucibus. Nullam aliquam malesuada neque, ac hendrerit lacus tincidunt eu.
-                </span>
-            </div>
-            <div>
-                <button class="bnt-purple" id="bnt-assistir-agora">
-                    <span><a href="#">Saber mais</a></span>
-                    <img class="icon-bnt" src="img/home/button-icon/icon-bnt-purple-icon.svg">
-                </button>
-            </div>
-        </div>
+      </div>
+      <!-- Descricao texto -->
+      <div class="descricao-container-texto">
+        <span class="descricao-texto" id="hero-descricao">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at
+          mauris quis magna aliquet condimentum. Cras et turpis id eros
+          tincidunt faucibus. Nullam aliquam malesuada neque, ac hendrerit lacus
+          tincidunt eu.
+        </span>
+      </div>
+      <div>
+        <button class="bnt-purple" id="bnt-assistir-agora">
+          <span id="texto_bnt"><a href="#">Saber mais</a></span>
+          <img
+            class="icon-bnt"
+            src="img/home/button-icon/icon-bnt-purple-icon.svg"
+          />
+        </button>
+      </div>
+    </div>
 
     <!-- Nossas ferramentas -->
     <div class="cards-container" id="nossas-ferramentas-container">
-        <div class="texto-container">
-            <p>Nossas ferramentas
-                <p class="text-bold-purple-small">interativas</p>
-        </div>
-        <div class="card-container" id="nossa-ferramenta-card" data-flickity='{ "contain": true, "wrapAround": true }'>
-        </div>
+      <div class="texto-container">
+        <p id="texto-nossa-ferramenta">
+          Nossas ferramentas
+          <span class="text-bold-purple-small" id="texto-bold-nossa-ferramenta"
+            >interativas</span
+          >
+        </p>
+      </div>
+      <div
+        class="card-container"
+        id="nossa-ferramenta-card"
+        data-flickity='{ "contain": true, "wrapAround": true }'
+      ></div>
     </div>
 
     <!-- Equipe-->
     <div class="nossa-equipe-container">
-        <div>
-            <p class="texto-introducao-pagina">Nossa equipe conta com os melhores e mais 
-                preparados  profissionais para criar o 
-                melhor conteúdo para sua criança
-            </p>
-        </div>
-        <div  class="equipe-container" data-flickity='{ "groupCells": true }'>
-            <div id="membros-container" class="membros-container">
-            </div>
-        </div>
+      <div class="texto-equipe-container">
+        <p class="texto-introducao-pagina" id="texto-equipe">
+          <span>Nossa equipe conta com os </span>
+          <span
+            class="text-bold-yellow-large"
+            id="primeira-parte-destaque-equipe"
+            >melhores e mais
+          </span>
+          <span>
+            preparados profissionais para criar o melhor conteúdo para
+          </span>
+          <span
+            class="text-bold-yellow-large"
+            id="segunda-parte-destaque-equipe"
+            >sua criança</span
+          >
+        </p>
+      </div>
+      <div class="equipe-container" data-flickity='{ "groupCells": true }'>
+        <div id="membros-container" class="membros-container"></div>
+      </div>
     </div>
 
     <!-- Forum -->
     <div class="cards-container" id="forum-container">
-        <div class="texto-container" id="texto-forum-container">
-            <p>Leia artigos e interaja no nosso 
-                <p class="text-bold-purple-small">forum</p>
-        </div>
-            <!-- Container do Artigo com Flickity -->
-            <div class="card-container" id="artigo_container" data-flickity='{ "contain": true, "wrapAround": true }'></div>     
+      <div class="texto-container" id="texto-forum-container">
+        <p>
+          Leia artigos e interaja no nosso
+          <span class="text-bold-purple-small">forum</span>
+        </p>
+      </div>
+      <!-- Container do Artigo com Flickity -->
+      <div
+        class="card-container"
+        id="artigo_container"
+        data-flickity='{ "contain": true, "wrapAround": true }'
+      ></div>
     </div>
-    
+
     <!-- Plataforma de videos -->
     <div class="plataforma-container" id="plataforma-videos-container">
-        <div class="texto-container-plataforma" id="text-videos">
-            <span>Nossa plataforma oferece vídeos 
-                <span class="text-bold-purple-small">filtrados & selecionados</span>
-                exclusivamente para cuidar da 
-                <span class="text-bold-purple-small">segurança</span> das suas crianças
-            </span>
+      <div class="texto-container-plataforma" id="text-videos">
+        <p>
+          Nossa plataforma oferece vídeos
+          <span class="text-bold-purple-small">filtrados & selecionados</span>
+          exclusivamente para cuidar da
+          <span class="text-bold-purple-small">segurança</span> das suas
+          crianças
+        </p>
 
-            <div class="descricao-container-plataforma" id="plataforma-videos-descricao">
-                <span class="descricao-texto-plataforma"> 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at mauris quis magna aliquet condimentum. 
-                    Cras et turpis id eros tincidunt faucibus. Nullam aliquam malesuada neque, ac hendrerit lacus tincidunt eu.
-                </span>
-            </div>
+        <div
+          class="descricao-container-plataforma"
+          id="plataforma-videos-descricao"
+        >
+          <span class="descricao-texto-plataforma">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+            at mauris quis magna aliquet condimentum. Cras et turpis id eros
+            tincidunt faucibus. Nullam aliquam malesuada neque, ac hendrerit
+            lacus tincidunt eu.
+          </span>
         </div>
-                <button class="bnt-outline-purple" id="bnt-assistir-agora">
-                    <span><a href="#">Assistir agora</a></span>
-                    <img class="icon-bnt" src="img/home/button-icon/icon-bnt-outline-purple.svg">
-                </button>
-        </div>
+      </div>
+      <button class="bnt-outline-purple" id="bnt-assistir-agora">
+        <span><a href="#">Assistir agora</a></span>
+        <img
+          class="icon-bnt"
+          src="img/home/button-icon/icon-bnt-outline-purple.svg"
+        />
+      </button>
+    </div>
 
     <!-- Ferramentas  -->
     <div class="cards-container" id="ferramentas-container">
-        <div class="texto-container">
-            <p>Materiais de apoio para  
-                <p class="text-bold-purple-small">pais e professores</p>
-        </div>
-        <div class="card-container" id="ferramenta-container" data-flickity='{ "contain": true, "wrapAround": true }'></div>
+      <p>
+        Materiais de apoio para
+        <span class="text-bold-purple-small">pais e professores</span>
+      </p>
     </div>
+    <div
+      class="card-container"
+      id="ferramenta-container"
+      data-flickity='{ "contain": true, "wrapAround": true }'
+    ></div>
 
     <!-- jogos educacionais -->
     <div class="plataforma-container" id="jogos-educacionais-container">
-        <div class="texto-container-plataforma" id="text-jogos">
-            <p>Nossa plataforma oferece jogos educacionais 
-                <span class="text-bold-white-small">interativos & divertidos</span>
-            projetados para estimular o <span class="text-bold-white-small">aprendizado</span> das crianças.
-            </p>
-            <div class="descricao-container-texto" id="jogos-descricao">
-                <span class="descricao-texto-plataforma"> 
-                    Disponibilizamos jogos educacionais projetados para estimular o aprendizado das crianças, promovendo o desenvolvimento cognitivo e a criatividade.
-                </span>
-            </div>
-            <div>
-                <button class="bnt-outline-white" id="bnt-assistir-agora">
-                    <span><a href="#">Acessar jogos</a></span>
-                    <img class="icon-bnt" src="img/home/button-icon/icon-bnt-outline-white.svg">
-                </button>
-            </div>
+      <div class="texto-container-plataforma" id="text-jogos">
+        <p>
+          Nossa plataforma oferece jogos educacionais
+          <span class="text-bold-white-small">interativos & divertidos</span>
+          projetados para estimular o
+          <span class="text-bold-white-small">aprendizado</span> das crianças.
+        </p>
+        <div class="descricao-container-texto" id="jogos-descricao">
+          <span class="descricao-texto-plataforma">
+            Disponibilizamos jogos educacionais projetados para estimular o
+            aprendizado das crianças, promovendo o desenvolvimento cognitivo e a
+            criatividade.
+          </span>
         </div>
+        <div>
+          <button class="bnt-outline-white" id="bnt-assistir-agora">
+            <span><a href="#">Acessar jogos</a></span>
+            <img
+              class="icon-bnt"
+              src="img/home/button-icon/icon-bnt-outline-white.svg"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
 
-     <!-- Importacao do JS do Flickity -->
-     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-
-     <!--  Importacao do JS externo -->
-     <script  type="module" src="js/componentes/ComponentCard.js"></script>
-     <script src="js/componentes/MembroCard.js"></script>
-     <script type="module" src="js/componentes/artigoCard.js"></script>
-     <script type="module" src="js/componentes/ferramentasCard.js"></script>
-     <script type="module" src="js/componentes/NossasFerramentas.js"></script>
-
-     
-</body>
+    <footer class="footer">
+      <div class="footer_wave">
+        <div class="footer__wave"></div>
+      </div>
+      <div class="container">
+        <div>
+          <!-- Div de contato -->
+          <div class="colls">
+            <img src="img/logo.png" alt="Lobotipo do sabidinhos" id="logo" />
+            <div class="contact">
+              <h3><span>Contato</span></h3>
+              <ul class="contact">
+                <li>
+                  <a
+                    href="https://api.whatsapp.com/send/?phone=552199999999&text&type=phone_number&app_absent=0"
+                  >
+                    +55 (21) 99999-9999
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:contato@sabidinhos.com"
+                    >contato@sabidinhos.com</a
+                  >
+                </li>
+                <li>
+                  <a href="https://maps.app.goo.gl/n9uHwmAZeSeRa7CYA">
+                    Rua Alí Perto, 2000 - Candelária <br />
+                    Rio Grande do Norte - RN
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- Div de informações -->
+            <div class="info">
+              <h3><span>Informações</span></h3>
+              <ul class="info">
+                <li>
+                  <a href="">Exames laboratoriais</a>
+                </li>
+                <li>
+                  <a href="">Consultas veterinárias</a>
+                </li>
+                <li>
+                  <a href="">Plano PET de saúde</a>
+                </li>
+                <li>
+                  <a href="">Quem somos?</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Div de redes sociais -->
+          <div class="social">
+            <ul class="social">
+              <li>
+                <a href="https://instagram.com.br">
+                  <img
+                    src="img/assets/instagram.svg"
+                    alt="Logotipo do instagram"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://facebook.com.br">
+                  <img
+                    src="img/assets/facebook.svg"
+                    alt="Logotipo do facebook"
+                  />
+                </a>
+              </li>
+              <li>
+                <a href="https://youtube.com.br">
+                  <img src="img/assets/youtube.svg" alt="logotipo do youtube" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Div de copy... -->
+        <div class="copy">
+          <a href="https://www.instagram.com/ejectufrn/">
+            EJECT © 2024. Alguns direitos reservados ¯\_(ツ)_/¯
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
