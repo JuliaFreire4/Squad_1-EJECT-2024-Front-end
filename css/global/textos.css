@@ -79,12 +79,10 @@
 }
 
 .descricao-container-texto{
-    width: 100%;
-    max-width: 802px;
+    max-width: 90%;
     height: 96px;
     text-align: center;
-    margin: 10px auto;
-
+    margin: 10% auto;
 }
 
 .descricao-texto{
@@ -100,6 +98,7 @@
     word-wrap: break-word;
     white-space: normal;
     color: #0A0430;
+    margin-top: 1vh;
 }
 
 @media(max-width:734px){
@@ -114,26 +113,39 @@
     .texto-introducao-pagina{
         font-size: 36px;
         line-height: 52px;
-
-
-    }
-}
-
-@media(min-width:934px){
-    .text-bold-purple-large{
-        font-size: 64px;
-        line-height: 77px;
-    }
-    .text-bold-yellow-large{
-        font-size: 64px;
-        line-height: 77px;
-    }
-    .texto-introducao-pagina{
-        font-size: 64px;
-        line-height: 77px;
     }
     .descricao-texto{
         font-size: 24px;
         line-height: 32px;
+
     }
+    .text-span-simbolo{
+        font-size: 36px;
+        line-height: 52px;
+    }
+}
+
+@media(min-width:1034px){
+    .text-bold-purple-large{
+        font-size: 80px;
+        line-height: 93px;
+    }
+    .text-bold-yellow-large{
+        font-size: 80px;
+        line-height: 93px;
+    }
+    .texto-introducao-pagina{
+        font-size: 80px;
+        line-height: 93px;
+    }
+    .descricao-texto{
+        font-size: 32px;
+        line-height: 34px;
+
+    }
+    .text-span-simbolo{
+        font-size: 77px;
+        line-height: 32px;
+    }
+
 }

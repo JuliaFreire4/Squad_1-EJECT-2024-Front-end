@@ -1,7 +1,7 @@
 
 .hero-container{
-    width: 1322.19px;
-    height: auto;
+    max-width: 80%;
+    height: 80%;
     margin:10% auto ;
     display: flex;
     flex-direction: column;
@@ -10,8 +10,9 @@
 }
 
 .container-texto{
-    width: 100%;
+    width: 70%;
     height: 231px;
+    line-height: bold;
     max-width: 668px;
     text-align: center;
 }
