@@ -11,13 +11,15 @@ const NossasFerramentas = [
     
 ]
 
-const nossa_ferramenta_container = document.getElementById('nossa-ferramenta-card')
+const texto_nossa_ferramenta = document.getElementById('texto-nossa-ferramenta');
+const texto_destaque_nossa_ferramenta = document.getElementById('texto-bold-nossa-ferramenta');
+const nossa_ferramenta_container = document.getElementById('nossa-ferramenta-card');
 
 if(nossa_ferramenta_container){
     AddCardsContainer({container: nossa_ferramenta_container, lista: NossasFerramentas});
     
  // Inicializar o Flickity 
- $('#nossas-ferramentas-container').flickity({
+ $('#nossa-ferramenta-card').flickity({
     cellAlign: 'right',
     contain: true,
     wrapAround: true,
