@@ -21,8 +21,8 @@ const ferramentas = [
      }
 ]
 
-const textoFerramentasCompleto = document.querySelector('#ferramentas-container .texto-container p').textContent;
-const textoFerramentasDestaque = document.querySelector('#ferramentas-container .texto-container .text-bold-purple-small').textContent;
+let textoFerramentasCompleto = document.querySelector('#ferramentas-container .texto-container p');
+let textoFerramentasDestaque = document.querySelector('#ferramentas-container .texto-container .text-bold-purple-small');
 
 const ferramenta_container = document.getElementById('ferramenta-container')
 
