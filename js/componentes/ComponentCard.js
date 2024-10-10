@@ -25,7 +25,7 @@ const criarCard=(imagem,descricao,link,id,titulo,destaque_titulo) => {
                 <img src=${imagem} alt="imagem de ${descricao}" >    
                 <div class="titulo-card">
                     <p>${titulo}
-                    <span> ${destaque_titulo}</span>
+                    <span "class="text-bold-yellow-small"> ${destaque_titulo}</span>
                     </p>
                 </div>
                 <div class="descricao-content-interno" >
@@ -42,8 +42,8 @@ const criarCard=(imagem,descricao,link,id,titulo,destaque_titulo) => {
 
 export const AddCardsContainer=({container,lista}) => {
     lista.forEach(dado => {
-        const { imagem, descricao, link, id,titulo} = dado
-        const cardElement = criarCard(imagem, descricao, link, id, titulo);
+        const { imagem, descricao, link, id,titulo,destaque_titulo} = dado
+        const cardElement = criarCard(imagem, descricao, link, id, titulo,destaque_titulo);
         container.appendChild(cardElement);
     });
 }
