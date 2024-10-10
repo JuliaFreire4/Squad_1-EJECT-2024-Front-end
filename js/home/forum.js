@@ -17,9 +17,11 @@ const artigos = [
         link: '#'
     }
 ];
+const textoForumCompleto = document.querySelector('#texto-forum-container p').textContent;
+const textoForumDestaque = document.querySelector('#texto-forum-container .text-bold-purple-small').textContent;
+
 
 const artigo_container = document.getElementById('artigo_container');
-
 if (artigo_container) {
     AddCardsContainer({ container: artigo_container, lista: artigos });
 
