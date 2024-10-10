@@ -1,11 +1,13 @@
+const textoCompletoHero = document.querySelector('#texto-completo-hero').textContent
+let primeiraParteDestaque_hero = document.querySelector('#texto-completo-hero .text-bold-purple-large');
+let segundaParteDestaque_hero = document.querySelector('#texto-completo-hero .text-span-simbolo');
+let terceiraParteDestaque_hero = document.querySelector('#texto-completo-hero .text-bold-yellow-large');
 
-const textoCompletoHero = document.querySelector('.texto-introducao-pagina').textContent
+let descricaoCompletaHero = document.querySelector('#hero-descricao')
+const heroContainer = document.querySelector(".hero-container")
 
-const textoEquipeCompleto=document.getElementById('texto-equipe').textContent;
-const textoEquipeDestaque = document.querySelectorAll('#texto-equipe .text-bold-yellow-large');
-let primeiraParteDestaque_equipe = textoDestaque[0].textContent;
-let segundaParteDestaque_equipe = textoDestaque[1].textContent; 
+if(heroContainer){
+    let bntSaberMais = document.querySelector('#bnt-assistir-agora')
+}
 
-
-
-console.log(textoCompletoHero)
+let textoBnt = document.querySelector('#texto_bnt')
