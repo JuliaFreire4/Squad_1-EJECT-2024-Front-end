@@ -5,27 +5,15 @@ const criarCard=(imagem,descricao,link,id,titulo,destaque_titulo) => {
 
 
     //adicionar id ao card
-    CardContainer.id = id;
-
-    CardContainer.innerHTML=`
-            <span class="card-overlay">
-                <div class="card-image">
-                    <img src=${imagem} alt="imagem de ${descricao}" >
-                </div>
-            </span>
-            <div class="descricao-content" >
-                <p><a href=${link}>${descricao}</a></p>
-            </div>
-    `;
+    CardContainer.id = id
 
     if(titulo){
-        CardContainer.innerHTML`
-        <span class="card-overlay">
-            <div class="card-image-background">
-                <img src=${imagem} alt="imagem de ${descricao}" >    
+        CardContainer.innerHTML=`
+        <span class="card-typeBackground">
+            <div class="card-image-background" style="background-image: url(${imagem});>
                 <div class="titulo-card">
                     <p>${titulo}
-                    <span "class="text-bold-yellow-small"> ${destaque_titulo}</span>
+                        <span class="text-bold-yellow-small"> ${destaque_titulo}</span>
                     </p>
                 </div>
                 <div class="descricao-content-interno" >
@@ -33,12 +21,21 @@ const criarCard=(imagem,descricao,link,id,titulo,destaque_titulo) => {
                 </div>
             </div>
         </span>
-    
     `;
-
-    }
+    } else{
+        CardContainer.innerHTML=`
+        <span class="card-overlay">
+            <div class="card-image">
+                <img src=${imagem} alt="imagem de ${descricao}" >
+            </div>
+        </span>
+        <div class="descricao-content" >
+            <p><a href=${link}>${descricao}</a></p>
+        </div>
+        `;
+        }
     return CardContainer
-}
+};
 
 export const AddCardsContainer=({container,lista}) => {
     lista.forEach(dado => {
