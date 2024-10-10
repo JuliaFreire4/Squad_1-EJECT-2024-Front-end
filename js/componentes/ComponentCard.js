@@ -1,5 +1,5 @@
 //Funcao Cards
-const criarCard=(imagem,descricao,link,id,titulo) => {
+const criarCard=(imagem,descricao,link,id,titulo,destaque_titulo) => {
     const CardContainer = document.createElement('div');
     CardContainer.classList.add('card');
 
@@ -19,18 +19,21 @@ const criarCard=(imagem,descricao,link,id,titulo) => {
     `;
 
     if(titulo){
-        CardContainer.innerHTML=`
+        CardContainer.innerHTML`
         <span class="card-overlay">
-            <div class="card-image">
-                    <img src=${imagem} alt="imagem de ${descricao}" >
+            <div class="card-image-background">
+                <img src=${imagem} alt="imagem de ${descricao}" >    
+                <div class="titulo-card">
+                    <p>${titulo}
+                    <span> ${destaque_titulo}</span>
+                    </p>
                 </div>
-            </span>
-            <div class="titulo-card">
-                <p>${titulo}</p>
+                <div class="descricao-content-interno" >
+                    <p><a href=${link}>${descricao}</a></p>
+                </div>
             </div>
-            <div class="descricao-content" >
-                <p><a href=${link}>${descricao}</a></p>
-            </div>
+        </span>
+    
     `;
 
     }
