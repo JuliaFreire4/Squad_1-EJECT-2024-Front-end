@@ -21,6 +21,9 @@ const ferramentas = [
      }
 ]
 
+const textoFerramentasCompleto = document.querySelector('#ferramentas-container .texto-container p').textContent;
+const textoFerramentasDestaque = document.querySelector('#ferramentas-container .texto-container .text-bold-purple-small').textContent;
+
 const ferramenta_container = document.getElementById('ferramenta-container')
 
 if(ferramenta_container){
