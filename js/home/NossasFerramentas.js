@@ -11,8 +11,8 @@ const NossasFerramentas = [
     
 ]
 
-const texto_nossa_ferramenta_Completo = document.getElementById('texto-nossa-ferramenta');
-const texto_nossa_ferramenta_Destaque = document.getElementById('texto-bold-nossa-ferramenta');
+let texto_nossa_ferramenta_Completo = document.getElementById('texto-nossa-ferramenta');
+let texto_nossa_ferramenta_Destaque = document.getElementById('texto-bold-nossa-ferramenta');
 const nossa_ferramenta_container = document.getElementById('nossa-ferramenta-card');
 
 if(nossa_ferramenta_container){

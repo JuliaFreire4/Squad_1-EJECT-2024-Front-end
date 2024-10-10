@@ -1,4 +1,4 @@
-const textoCompletoHero = document.querySelector('#texto-completo-hero').textContent
+let textoCompletoHero = document.querySelector('#texto-completo-hero')
 let primeiraParteDestaque_hero = document.querySelector('#texto-completo-hero .text-bold-purple-large');
 let segundaParteDestaque_hero = document.querySelector('#texto-completo-hero .text-span-simbolo');
 let terceiraParteDestaque_hero = document.querySelector('#texto-completo-hero .text-bold-yellow-large');
