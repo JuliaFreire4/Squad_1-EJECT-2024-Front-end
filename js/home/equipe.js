@@ -26,8 +26,13 @@ const membros = [
 
 
 ];
+const textoEquipeCompleto=document.getElementById('texto-equipe').textContent;
+const textoDestaque = document.querySelectorAll('#texto-equipe .text-bold-yellow-large');
+let primeiraParteDestaque = textoDestaque[0].textContent;
+let segundaParteDestaque = textoDestaque[1].textContent; 
 
 const membrosContainer = document.getElementById('membros-container');
+
 
 membros.forEach(membro => {
     const membroContent = document.createElement('div');
