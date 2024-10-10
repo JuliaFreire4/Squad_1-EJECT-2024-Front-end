@@ -1,5 +1,5 @@
 //Funcao Cards
-const criarCard=(imagem,descricao,link,id) => {
+const criarCard=(imagem,descricao,link,id,titulo) => {
     const CardContainer = document.createElement('div');
     CardContainer.classList.add('card');
 
@@ -17,13 +17,20 @@ const criarCard=(imagem,descricao,link,id) => {
             </div>
     `;
 
+    if(titulo){
+        CardContainer.innerHTML=`
+         <div class="titulo-card">
+                <p>${titulo}</p>
+            </div>
+        `
+    }
     return CardContainer
 }
 
 export const AddCardsContainer=({container,lista}) => {
     lista.forEach(dado => {
-        const { imagem, descricao, link, id } = dado
-        const cardElement = criarCard(imagem, descricao, link, id );
+        const { imagem, descricao, link, id,titulo} = dado
+        const cardElement = criarCard(imagem, descricao, link, id, titulo);
         container.appendChild(cardElement);
     });
 }
