@@ -55,3 +55,74 @@ body {
   font-weight: 600;
   font-size: 2.5rem;
 }
+
+.cartoon h3 {
+  font-family: "Montserrat", sans-serif;
+  display: inline;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.video-type {
+  justify-content: left;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  display: inline;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-left: 18rem;
+}
+
+.video-grid {
+  margin-bottom: 5rem;
+}
+
+.video-type h3 {
+  font-size: 2rem;
+  display: inline;
+}
+
+.video-type i {
+  font-family: "DM Serif Display", serif;
+  display: inline;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.rectangle {
+  position: relative;
+  width: 18rem;
+  height: 11rem;
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  border-bottom: 1.75rem solid white;
+  rotate: 90deg;
+}
+
+.square {
+  width: 4.5rem;
+  height: 0.5rem;
+  background-color: brown;
+  margin-left: 18rem;
+}
+
+.video-subtitle {
+  margin-top: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
