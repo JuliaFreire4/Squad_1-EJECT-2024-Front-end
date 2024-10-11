@@ -13,10 +13,11 @@
 .logo img {
     max-width: 20rem;
 }
+
 .nav-links {
     display: flex;
-    gap: 1rem; /* Espaçamento entre os links */
-    position: relative; /* Necessário para posicionar a imagem */
+    gap: 1rem;
+    position: relative;
 }
 
 .nav-links a {
@@ -25,19 +26,18 @@
     font-weight: 600;
     margin-left: 0.2rem;
     margin-right: 0.2rem;
-    position: relative; /* Necessário para posicionar a imagem abaixo do item ativo */
+    position: relative;
 }
 
 .nav-links a.active::after {
-    content: url(/img/assets/header-drop.svg);
+    content: url("/img/assets/header-drop.svg");
     display: block;
     position: absolute;
-    bottom: -2rem; /* Ajuste conforme necessário para posicionar a imagem */
+    bottom: -3rem;
     left: 50%;
     transform: translateX(-50%);
 }
 
-/* Estilo para o item ativo */
 .nav-links a.active {
     font-weight: 800;
 }
@@ -55,6 +55,6 @@
     }
 
     .nav-links a.active::after {
-        bottom: -1.5rem; /* Ajuste conforme necessário para telas menores */
+        bottom: -1.5rem;
     }
 }

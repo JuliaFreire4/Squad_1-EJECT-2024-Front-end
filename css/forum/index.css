@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+
+body {
+  font-optical-sizing: auto;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+}
+
+.forum-container {
+    position: relative;
+}
+
+.info-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  text-align: center;
+  margin-top: -2rem;
+  position: relative;
+}
+
+.info-top i {
+  font-family: "DM Serif Display", serif;
+  display: inline;
+  font-size: 3rem;
+}
+
+.info-top h2 {
+  font-family: "Montserrat", sans-serif;
+  display: inline;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.info-top h3 {
+  font-family: "Montserrat", sans-serif;
+  display: inline;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.title {
+  position: absolute;
+  top: 0;
+}
+
+.subtitle {
+  position: absolute;
+  margin: -12rem 35rem 0 35rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.forum-type {
+  justify-content: left;
+  text-align: left;
+  font-family: "Montserrat", sans-serif;
+  display: inline;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+
+.forum {
+    margin-top: -18rem;
+    margin-bottom: 8rem;
+}
+
+.forum-grid {
+  margin-bottom: 5rem;
+  margin: 2rem 12rem 0 12rem;
+}
+
+.forum-type h3 {
+  font-size: 2rem;
+  display: inline;
+  font-weight: 550;
+}
+
+.forum-type i {
+  font-family: "DM Serif Display", serif;
+  display: inline;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.rectangle {
+    position: relative;
+    width: 26rem;
+    height: 16rem;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    gap: 5rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.square {
+  width: 4.5rem;
+  height: 0.5rem;
+  background-color: brown;
+  margin-left: 2rem;
+}
+
+.forum-subtitle {
+  margin: 2rem 0 2rem 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
