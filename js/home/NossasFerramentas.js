@@ -9,9 +9,33 @@ const NossasFerramentas = [
         link: '#',
         id:"nossa-ferramenta"
     },
+    {
+        titulo: "atividades",
+        destaque_titulo:"criativas",
+        descricao: "Lorem ipsum dolor sit amet",
+        imagem:'img/home/ferramentas/ferramenta1.png',
+        link: '#',
+        id:"nossa-ferramenta"
+    },
+    {
+        titulo: "atividades",
+        destaque_titulo:"criativas",
+        descricao: "Lorem ipsum dolor sit amet",
+        imagem:'img/home/ferramentas/ferramenta1.png',
+        link: '#',
+        id:"nossa-ferramenta"
+    },
+    {
+        titulo: "atividades",
+        destaque_titulo:"criativas",
+        descricao: "Lorem ipsum dolor sit amet",
+        imagem:'img/home/ferramentas/ferramenta1.png',
+        link: '#',
+        id:"nossa-ferramenta"
+    },
     
 ]
-const nossa_ferramenta_container = document.getElementById("nossas-ferramentas-container")
+const nossa_ferramenta_container = document.getElementById("nossa-ferramenta-card")
 
 if(nossa_ferramenta_container){
     AddCardsContainer({container: nossa_ferramenta_container, lista: NossasFerramentas});
