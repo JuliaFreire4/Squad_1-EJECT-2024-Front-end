@@ -80,9 +80,8 @@
 
 .descricao-container-texto{
     max-width: 90%;
-    height: 96px;
     text-align: center;
-    margin: 10% auto;
+    margin: 50px auto;
 }
 
 .descricao-texto{
@@ -92,6 +91,7 @@
     line-height: 32px;
     letter-spacing: 0.075em;
     text-align: left;
+    height: 96px;
     align-items: center;
     justify-content: center;
     overflow-wrap: break-word;

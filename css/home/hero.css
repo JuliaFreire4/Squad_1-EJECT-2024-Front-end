@@ -13,3 +13,9 @@
     text-align: center;
 }
 
+
+#hero-descricao{
+    max-width: 60%;
+    text-align: center;
+    margin: 50px auto;
+}
