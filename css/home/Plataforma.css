@@ -1,7 +1,7 @@
 .plataforma-container{
     width: 1160px;
     height: 611px;
-    margin: auto 140px;
+    margin: auto ;
     border-radius: 50px;
     display: flex;
     flex-direction: column;

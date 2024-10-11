@@ -32,9 +32,12 @@ const criarCard=(imagem,descricao,link,id,titulo,destaque_titulo) => {
         <div class="descricao-content" >
             <p><a href=${link}>${descricao}</a></p>
         </div>
-        `;
-        }
+        <span>
+        `;       
+    }
     return CardContainer
+
+
 };
 
 export const AddCardsContainer=({container,lista}) => {
