@@ -19,7 +19,7 @@
 .titulo-card{
     position: absolute;
     z-index: 1;
-    bottom: 60px;
+    bottom: 30px;
     left: 30px;
     color: #0A0430;
 }
