@@ -16,19 +16,48 @@
         <link rel="stylesheet" href="css/home/plataformaVideo.css">
         <link rel="stylesheet" href="css/home/ferrramenta.css">
         <link rel="stylesheet" href="css/home/jogosEducacionais.css">
+
         <!-- Global -->
         <link rel="stylesheet" href="css/global/button.css">
         <link rel="stylesheet" href="css/global/textos.css">
+        <link rel="stylesheet" href="css/global/footer.css" />
+        <link rel="stylesheet" href="css/global/header.css" />
 
     <!-- Importar o CSS do Flickity -->
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-    
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
     <!-- Importar o jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    
+     <!-- Importacao do JS do Flickity -->
+     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+     <!--  Importacao do JS externo -->
+     <script type="module" src="js/componentes/ComponentCard.js"></script>
+     <script src="js/home/equipe.js"></script>
+     <script type="module" src="js/home/forum.js"></script>
+     <script type="module" src="js/home/Ferramentas.js"></script>
+     <script type="module" src="js/home/NossasFerramentas.js"></script>
+     <script src="js/home/hero.js"></script>
 </head>
 
 <body>
+    <header>
+        <div class="header-container">
+          <div class="logo">
+            <img src="img/logo.png" alt="Logotipo da sabidinhos" />
+          </div>
+          <div class="background">
+            <nav class="nav-links">
+              <a href="/home.html" class="active">home</a>
+              <a href="/videos.html">vídeos</a>
+              <a href="/forum.html">fórum</a>
+              <a href="/client.html">pais & profs</a>
+            </nav>
+          </div>
+        </div>
+      </header>
 
     <!--  Hero -->
     <div class="hero-container">
@@ -146,6 +175,93 @@
                 </button>
             </div>
         </div>
+        
+    <footer class="footer">
+        <div class="footer_wave">
+          <div class="footer__wave"></div>
+        </div>
+        <div class="container">
+          <div>
+            <!-- Div de contato -->
+            <div class="colls">
+              <img src="img/logo.png" alt="Lobotipo do sabidinhos" id="logo" />
+              <div class="contact">
+                <h3><span>Contato</span></h3>
+                <ul class="contact">
+                  <li>
+                    <a
+                      href="https://api.whatsapp.com/send/?phone=552199999999&text&type=phone_number&app_absent=0"
+                    >
+                      +55 (21) 99999-9999
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:contato@sabidinhos.com"
+                      >contato@sabidinhos.com</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://maps.app.goo.gl/n9uHwmAZeSeRa7CYA">
+                      Rua Alí Perto, 2000 - Candelária <br />
+                      Rio Grande do Norte - RN
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Div de informações -->
+              <div class="info">
+                <h3><span>Informações</span></h3>
+                <ul class="info">
+                  <li>
+                    <a href="">Exames laboratoriais</a>
+                  </li>
+                  <li>
+                    <a href="">Consultas veterinárias</a>
+                  </li>
+                  <li>
+                    <a href="">Plano PET de saúde</a>
+                  </li>
+                  <li>
+                    <a href="">Quem somos?</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Div de redes sociais -->
+            <div class="social">
+              <ul class="social">
+                <li>
+                  <a href="https://instagram.com.br">
+                    <img
+                      src="img/assets/instagram.svg"
+                      alt="Logotipo do instagram"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://facebook.com.br">
+                    <img
+                      src="img/assets/facebook.svg"
+                      alt="Logotipo do facebook"
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://youtube.com.br">
+                    <img src="img/assets/youtube.svg" alt="logotipo do youtube" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Div de copy... -->
+          <div class="copy">
+            <a href="https://www.instagram.com/ejectufrn/">
+              EJECT © 2024. Alguns direitos reservados ¯\_(ツ)_/¯
+            </a>
+          </div>
+        </div>
+      </footer>
 
      <!-- Importacao do JS do Flickity -->
      <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
