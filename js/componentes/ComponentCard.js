@@ -10,7 +10,7 @@ const criarCard=(imagem,descricao,link,id,titulo,destaque_titulo) => {
     if(titulo){
         CardContainer.innerHTML=`
         <span class="card-typeBackground">
-            <div class="card-image-background" style="background-image: url(${imagem});>
+            <div class="card-image-background" style="background-image: url(${imagem})";>
                 <div class="titulo-card">
                     <p>${titulo}
                         <span class="text-bold-yellow-small"> ${destaque_titulo}</span>

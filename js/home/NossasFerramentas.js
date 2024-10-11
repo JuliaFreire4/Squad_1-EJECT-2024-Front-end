@@ -11,7 +11,7 @@ const NossasFerramentas = [
     },
     
 ]
-const nossa_ferramenta_container = document.getElementById=("nossas-ferramentas-container")
+const nossa_ferramenta_container = document.getElementById("nossas-ferramentas-container")
 
 if(nossa_ferramenta_container){
     AddCardsContainer({container: nossa_ferramenta_container, lista: NossasFerramentas});
