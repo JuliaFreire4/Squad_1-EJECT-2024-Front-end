@@ -26,6 +26,10 @@ const membros = [
 
 
 ];
+let textoEquipeCompleto=document.getElementById('texto-equipe');
+let textoEquipeDestaque = document.querySelectorAll('#texto-equipe .text-bold-yellow-large');
+let primeiraParteDestaque_equipe = document.querySelector('#texto-equipe #primeira-parte-destaque-equipe');
+let segundaParteDestaque_equipe =  document.querySelector('#texto-equipe #segunda-parte-destaque-equipe');
 
 const membrosContainer = document.getElementById('membros-container');
 

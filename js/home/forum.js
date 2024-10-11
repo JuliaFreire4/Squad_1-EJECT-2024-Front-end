@@ -1,4 +1,4 @@
-import { AddCardsContainer } from "./ComponentCard.js";
+import { AddCardsContainer } from "../componentes/ComponentCard.js";
 
 const artigos = [
     {
@@ -17,9 +17,11 @@ const artigos = [
         link: '#'
     }
 ];
+let textoForumCompleto = document.querySelector('#texto-forum-container p');
+let textoForumDestaque = document.querySelector('#texto-forum-container .text-bold-purple-small');
+
 
 const artigo_container = document.getElementById('artigo_container');
-
 if (artigo_container) {
     AddCardsContainer({ container: artigo_container, lista: artigos });
 

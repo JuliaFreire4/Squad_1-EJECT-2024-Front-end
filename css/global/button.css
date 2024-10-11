@@ -14,11 +14,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    margin-top: 20px;
 }
 
 .button-purple:hover{
-    background-color: blue;
+    background-color: #390ed1;
 }
 .bnt-outline-white{
     width: Hug (233px)px;
@@ -40,7 +40,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    margin-top: 20px;
 }
 
 .bnt-outline-purple{
@@ -63,6 +63,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
 
 }
 

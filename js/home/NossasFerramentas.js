@@ -1,8 +1,9 @@
-import { AddCardsContainer } from "./ComponentCard.js";
+import { AddCardsContainer } from "../componentes/ComponentCard.js";
 
 const NossasFerramentas = [
     {
-        titulo: "atividades criativas",
+        titulo: "atividades",
+        destaque_titulo:"criativas",
         descricao: "Lorem ipsum dolor sit amet",
         imagem:'img/home/ferramentas/ferramenta1.png',
         link: '#',
@@ -10,14 +11,13 @@ const NossasFerramentas = [
     },
     
 ]
-
-const nossa_ferramenta_container = document.getElementById('nossa-ferramenta-card')
+const nossa_ferramenta_container = document.getElementById=("nossas-ferramentas-container")
 
 if(nossa_ferramenta_container){
     AddCardsContainer({container: nossa_ferramenta_container, lista: NossasFerramentas});
     
  // Inicializar o Flickity 
- $('#nossas-ferramentas-container').flickity({
+ $('#nossa-ferramenta-card').flickity({
     cellAlign: 'right',
     contain: true,
     wrapAround: true,
