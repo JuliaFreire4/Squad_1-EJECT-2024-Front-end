@@ -28,7 +28,5 @@ Site voltado para o aprendizado e desenvolvimento de crianças, com recursos par
 
 ## Tecnologias Usadas
 - **Front-end**: Tecnologia utilizada (JavaScript, HTML5, CSS3,Flickity)
-- **Back-end**: Tecnologia utilizada 
-- **Banco de Dados**: Nome e versão do banco de dados 
 
 
