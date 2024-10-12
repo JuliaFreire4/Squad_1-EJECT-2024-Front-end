@@ -7,7 +7,6 @@
 
 .cards-containe{
     width: 1160px;
-    margin: auto 140px 140px;
     max-width: 100%;
     max-height: auto;
 
@@ -17,8 +16,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
-    margin:50px auto ;
-    overflow: hidden;
+    margin:auto 5% 140px ;
 }
 
 .card{
