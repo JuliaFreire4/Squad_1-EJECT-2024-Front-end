@@ -15,11 +15,11 @@ Site voltado para o aprendizado e desenvolvimento de crianças, com recursos par
 
 ### Aspiras Front-end
 - **Julia Mariana**
-- **Samuel**
+- **Felipe Samuel**
 
 ### Aspiras Back-end
-- **Aldo**
-- **Israel**
+- **Aldo Queiroz**
+- **Israel Felipe**
 - **Gabriel Teixeira**
 
 ## Link do Mockup
@@ -27,8 +27,6 @@ Site voltado para o aprendizado e desenvolvimento de crianças, com recursos par
 
 
 ## Tecnologias Usadas
-- **Front-end**: Tecnologia utilizada (JavaScript, HTML5, CSS3)
-- **Back-end**: Tecnologia utilizada 
-- **Banco de Dados**: Nome e versão do banco de dados 
+- **Front-end**: Tecnologia utilizada (JavaScript, HTML5, CSS3,Flickity)
 
 
