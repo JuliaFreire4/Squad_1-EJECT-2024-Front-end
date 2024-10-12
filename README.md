@@ -18,7 +18,7 @@ Site voltado para o aprendizado e desenvolvimento de crianças, com recursos par
 - **Felipe Samuel**
 
 ### Aspiras Back-end
-- **Aldo Queiroz **
+- **Aldo Queiroz**
 - **Israel Felipe**
 - **Gabriel Teixeira**
 
